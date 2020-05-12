@@ -117,7 +117,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 65542835532747864}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -3208752243380971423}
+        m_MethodName: OnClosePanel
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &65542835885634134
 GameObject:
   m_ObjectHideFlags: 0
@@ -129,6 +140,8 @@ GameObject:
   - component: {fileID: 65542835885634133}
   - component: {fileID: 65542835885634139}
   - component: {fileID: 65542835885634132}
+  - component: {fileID: -3208752243380971423}
+  - component: {fileID: 5260827809481196203}
   m_Layer: 5
   m_Name: SystemPanel
   m_TagString: Untagged
@@ -193,6 +206,30 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &-3208752243380971423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65542835885634134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f02e340bb451c4200b6e17fc1c13db11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!225 &5260827809481196203
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 65542835885634134}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &65542836151382329
 GameObject:
   m_ObjectHideFlags: 0
